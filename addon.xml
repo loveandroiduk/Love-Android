@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.LAB" name="Love Android Build" version="0.2.0" provider-name="loveandroid.co.uk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">Love Android Build 2016</summary>
+		<description lang="en">In this wizard you will find the latest build by Ben House.</description>
+		<disclaimer lang="en">Visit loveandroid.co.uk for more info.</disclaimer>
+		<forum>http://loveandroid.co.uk/</forum>
+		<source>http://loveandroid.co.uk/</source>
+		<website>https://www.loveandroid.co.uk</website>
+		<platform>all</platform>
+	</extension>
+</addon>
